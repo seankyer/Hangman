@@ -1,9 +1,6 @@
 from src.model.GameInstance import GameInstance
 from src.model.HangmanWord import HangmanWord
-import os
 
-def clear():
-    os.system('cls')
 
 def start_game():
     print("Welcome to Hangman, created by Sean Kyer")
