@@ -8,7 +8,7 @@ class HangmanWord:
 
     # returns int of length of self word
     def get_word_length(self):
-        return self.length
+        return len(self.word)
 
     # Return true or false depending on if letter is found in word
     def does_word_contain_letter(self, letter):

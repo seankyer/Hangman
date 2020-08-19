@@ -14,3 +14,8 @@ class MyTestCase(unittest.TestCase):
         test_instance = GameInstance(test_word)
         self.assertEqual(len(test_instance.letters_shown), 8)
         print(test_instance.letters_shown)
+
+    def test_guess(self):
+        test_word = HangmanWord("word")
+        test_instance = GameInstance(test_word)
+        test_instance.guess("w")
